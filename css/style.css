@@ -1,23 +1,8 @@
 /* color gris del sitio #e3e4e5 */
+/* color rosa del sitio #daa592 */
 
-/* galería de imágenes */
-.card{
-    border: none;
-}
-
-.card-body{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-}
-
-.card img{
-    border-radius: 10px;
-}
-
-.card img:hover{
-    filter: grayscale(40%);
-    transition: all .4s;
+.breadcrumb{
+    background-color: #e3e4e5;
 }
 
 .btn{
@@ -30,7 +15,29 @@
     transition: all .6s;
 }
 
-/* ventana modal */
+/* galería de imágenes */
+.card-gallery{
+    border: none;
+}
+
+.card-body-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.card-gallery img{
+    border-radius: 10px;
+}
+
+.card-gallery img:hover{
+    filter: grayscale(40%);
+    transition: all .4s;
+}
+
+
+
+/* ventana modal*/
 
 .modal-content{
     background-color: #e3e4e5;
@@ -40,10 +47,6 @@
 .modal-header{
     background-color: #daa592;
     border-radius: 10px 10px 0 0;
-}
-
-.breadcrumb{
-    background-color: #e3e4e5;
 }
 
 
