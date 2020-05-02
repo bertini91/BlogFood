@@ -1,0 +1,49 @@
+/* color gris del sitio #e3e4e5 */
+
+/* galería de imágenes */
+.card{
+    border: none;
+}
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card img:hover{
+    filter: grayscale(40%);
+    transition: all .4s;
+}
+
+.btn{
+    background-color: #daa592;
+    border: none;
+}
+
+.btn:hover{
+    filter: opacity(35%);
+    transition: all .6s;
+}
+
+/* ventana modal */
+
+.modal-content{
+    background-color: #e3e4e5;
+    border-radius: 10px;
+}
+
+.modal-header{
+    background-color: #daa592;
+    border-radius: 10px 10px 0 0;
+}
+
+.breadcrumb{
+    background-color: #e3e4e5;
+}
+
+
