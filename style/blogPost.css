@@ -1,0 +1,272 @@
+
+.dishes{
+    display: flex;
+    border-radius: 15px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.main{
+	background-color: #FDD6D6;
+}
+
+h4{
+	font-family: 'Indie Flower', cursive;
+}
+.title-dishes{
+	font-family: 'Indie Flower', cursive;
+}
+
+.card{
+	border-radius: 30px;
+	margin-bottom: 40px !important;
+}
+
+.card-body{
+	text-align: left !important;
+}
+
+.card-title{
+	text-decoration: underline;
+	width: 100%;
+}
+
+li p{
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.col-5_img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.row img{
+    padding: 15px;
+	border-radius: 30px;
+}
+
+.col-5_img img{
+	width: 418px;
+	height: 350px;
+}
+
+#cannelloni, #coconut, #cookies{
+    display: none;
+}
+
+#cannelloni:target{
+    display: flex;
+}
+
+#coconut:target{
+	display: flex;
+}
+#cookies:target{
+	display: flex;
+}
+
+.comments{
+	display: flex;
+}
+
+.list{
+	border: 1px solid rgba(0,0,0,.125);
+	background-color: white;
+	border-radius: 20px;
+	margin-left: 10px;
+	padding: 15px;
+}
+
+.list_coment{
+	margin: 0px 5px 0px 5px;
+}
+
+.list_coment-tittle h5, p{
+	margin-bottom: 5px;
+}
+
+.list_coment-tittle{
+    display: flex;
+}
+.list_coment-tittle h5{
+    margin-right: 15px;
+}
+
+.small_description{
+	display: flex;
+}
+
+.description{
+	margin-left: 8px;
+}
+.comment h5{
+	margin-bottom: 12px;
+}
+
+.openComments{
+	margin-left: 15px;
+}
+
+
+.checks{
+	margin-left: 20px;
+	margin-right: 23px;
+}
+
+.button-comment{
+	display: flex;
+	justify-content: center;
+}
+.button-comment button{
+	width: 30%;
+	background-color: #FDD6D6;
+}
+
+.form-group{
+	margin-bottom: 10px;
+}
+
+.form-group_checks{
+	display: flex;
+}
+
+.form-group_checks label{
+	margin-bottom: 0;
+}
+
+.dropdown-item{
+	padding: 4px 15px;
+}
+.calif{
+	display: flex;
+	align-items: center;
+}
+
+                                    /* Comienzo practica */
+
+
+
+
+
+
+
+.checkeable input {
+    display: none;
+}
+
+.checkeable input {
+	display: none;
+}
+ 
+
+
+  
+.checkeable .start-icon{
+    border: 2px solid transparent;
+}
+
+.checkeable input:checked  + .start-icon .icon{
+    border-color: blue;
+    fill: #3483FA;
+}
+
+
+
+  /*                                fin de practica */
+
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 1100px;
+	position: relative;
+	margin: 3% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #00d9ff; }
+
+
+@media(max-width:800px){
+    .comments{
+		display: block;
+	}
+	.list_coment-tittle {
+		display: block;
+	}
+	
+	.col-5, .col-7{
+		max-width: 100%;
+	}
+	.comment{
+		margin-top: 20px;
+	}
+	.row img, img{
+		width: 250px;
+		height: 250px;
+	}
+	.row .col-md-4{
+		display: flex;
+		justify-content: center;
+		
+	}
+	.form-group_checks{
+		display: block;
+	}
+	.calif{
+		display: flex;
+		align-items: center;
+	}
+	.select_dishes{
+		margin-top: 8px;
+	}
+	.modalDialog{
+		display: flex;
+	}
+}
