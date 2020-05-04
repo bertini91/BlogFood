@@ -1,0 +1,55 @@
+/* color gris del sitio #e3e4e5 */
+/* color rosa del sitio #daa592 */
+
+.breadcrumb{
+    background-color: #e3e4e5;
+}
+
+.btn{
+    background-color: #daa592;
+    border: none;
+}
+
+.btn:hover{
+    filter: opacity(35%);
+    transition: all .6s;
+}
+
+/* galería de imágenes */
+.card-gallery{
+    border: none;
+}
+
+.card-body-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.card-gallery img{
+    border-radius: 10px;
+}
+
+.card-gallery img:hover{
+    filter: grayscale(40%);
+    transition: all .4s;
+}
+
+
+
+/* ventana modal*/
+
+.modal-content{
+    background-color: #e3e4e5;
+    border-radius: 10px;
+}
+
+.modal-header{
+    background-color: #daa592;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.about{
+    background-color: #daa592;
+}
