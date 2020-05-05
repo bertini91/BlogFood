@@ -3,14 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>CocinArte</title>
+    <meta name="description" content="Recetas faciles y divertidas para ponerle un poco de sabor a la vida">
+    <meta name="keywords" content="Recetas, ideas, recetas, faciles, divertidas, cocina">
+    <meta name="author" content="Daiana, Nicolas, Jose, Gabriel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/149cd403fa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>CocinArte - Recetas más vistas</title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light nav">
+            <div class="container">
+                <a class="navbar-brand lead text-center" href="index.html">
+                    <img src="img/Logo.png" width="90px" href="#" class="mr-2 display-4"><strong>CocinArte</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto lead">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutUs.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.htm">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacto</a>
+                        </li>
+                        <button class="btn boton text-light" type="submit" data-toggle="modal"
+                            data-target="#exampleModal">Suscribite!</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!-- breadrcumb -->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -115,7 +150,8 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-3 mb-3">
                 <div class="card h-100 card-gallery">
-                    <img src="img/ensalada-zapallo-asado-quinua-espinaca.jpg" class="card-img-top" alt="ensalada de quinua">
+                    <img src="img/ensalada-zapallo-asado-quinua-espinaca.jpg" class="card-img-top"
+                        alt="ensalada de quinua">
                     <div class="card-body card-body-gallery">
                         <h5 class="card-title">Ensalada con quinua</h5>
                         <p class="card-text">Original ensalada con zapallo asado, espinaca y quinua!</p>
@@ -145,6 +181,58 @@
             </div>
         </div>
     </section>
+
+    <!--Comienzo footer-->
+    <footer class="footer mt-auto">
+        <article class="container">
+            <div class="row ">
+                <div class="col-sm-12 col-md-4 text-center">
+                    <a href="index.html"><img src="img/Logo.png" width="125px" alt="logo CocinArte" class="my-3"></a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <p class="my-3"><strong>Nosotros:</strong></p>
+                    <p>Somos un grupo de amigos que amamos la cocina y nos apasiona la programacion web. Asi que
+                        decidimos
+                        combinarlos para compartir con uds las recetas mas sabrosas y practicas</p>
+                </div>
+                <div class="col-sm-12 col-md-4 text-center">
+                    <a href="error404.html"><i class="fab fa-facebook-square fa-2x my-3 text-dark"></i></a>
+                    <a href="error404.html"><i class="fab fa-instagram fa-2x my-3 text-dark"></i></a>
+                    <a href="error404.html"> <i class="fab fa-twitter-square fa-2x my-3 text-dark"></i></a>
+                    <a href="error404.html"><i class="fab fa-pinterest-square fa-2x my-3 text-dark"></i></a>
+                </div>
+            </div>
+        </article>
+    </footer>
+
+    <!-- ventana modal "suscribirse" -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-light" id="exampleModalLabel">Ingresa tu direccion de email</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label for="exampleInputname">Nombre y apellido</label>
+                    <input type="usr" placeholder="Nombre y Apellido" class="form-control">
+                    <hr>
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" placeholder="tu@email.com" class="form-control">
+                    <hr>
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn boton text-light" data-dismiss="modal">Grabar</button>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
 
 
     <!-- ventana modal -->
