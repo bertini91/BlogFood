@@ -42,8 +42,13 @@
 
 /* Fin */
 
+.breadcrumb, .breadcrumb ol{
+	margin-top: 114px;
+	margin-bottom: 0;
+}
+
 .main{
-	margin-top: 65px;
+	margin-top: 0px;
 }
 
 
@@ -54,7 +59,7 @@
     justify-content: center;
     text-align: center;
 	padding: 30px;
-	/* margin-top: 95px; */
+	margin-top: 0px;
 }
 
 .main, .btn-send{
