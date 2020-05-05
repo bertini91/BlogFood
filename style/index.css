@@ -4,6 +4,14 @@
     width: 100%;
 }
 
+
+.breadcrumb{
+    background-color: #e3e4e5;
+    margin-top: 114px;
+    margin-bottom: 0px;
+}
+
+
 .footer{
     background-color: #e3e4e5;
 }
@@ -28,6 +36,6 @@
 h4{
     color: #daa592;
 }
-.margin{
+/* .margin{
     margin-top: 114px;
-}
+} */
