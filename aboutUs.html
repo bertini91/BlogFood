@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <title>CocinArte</title>
-    <meta name="description" content="Recetas faciles y divertidas para ponerle un poco de sabor a la vida">
-    <meta name="keywords" content="Recetas, ideas, recetas, faciles, divertidas, cocina">
-    <meta name="author" content="Daiana, Nicolas, Jose, Gabriel">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/149cd403fa.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>CocinArte</title>
+        <meta name="description" content="Recetas faciles y divertidas para ponerle un poco de sabor a la vida">
+        <meta name="keywords" content="Recetas, ideas, recetas, faciles, divertidas, cocina">
+        <meta name="author" content="Daiana, Nicolas, Jose, Gabriel">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/149cd403fa.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style/aboutUs.css">
+    </head>
 
 <body class="about">
     <header>
@@ -34,18 +34,19 @@
                             <a class="nav-link active" href="aboutUs.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.htm">Log In</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contacto</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Log In</a>
+                        </li>
                         <button class="btn boton text-light" type="submit" data-toggle="modal"
-                            data-target="#exampleModal">Suscribite!</button>
+                            data-target="#suscripcion">Suscribite!</button>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <!-- breadrcumb -->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -53,6 +54,7 @@
             <li class="breadcrumb-item active" aria-current="page">Acerca de Nosotros</li>
         </ol>
     </nav>
+    
     <section class="container">
         <h1 class="display-4">Nuestro equipo</h1>
         <p class="lead">
@@ -110,34 +112,28 @@
         </article>
     </footer>
 
-    <!-- ventana modal "suscribirse" -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <!-- ventana modal "suscribirse" -->
+        <div class="modal fade" id="suscripcion" tabindex="-1" role="dialog" aria-labelledby="suscripcion"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-light" id="exampleModalLabel">Ingresa tu direccion de email</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <h5 class="modal-title text-light" id="suscripcion">Ingresa tu direccion de email para recibir
+                        nuestro newsletter</h5>
                 </div>
                 <div class="modal-body">
                     <label for="exampleInputname">Nombre y apellido</label>
-                    <input type="usr" placeholder="Nombre y Apellido" class="form-control">
-                    <hr>
+                    <input type="usr" placeholder="Nombre y Apellido" class="form-control mb-3">
                     <label for="exampleInputEmail1">Email</label>
-                    <input type="email" placeholder="tu@email.com" class="form-control">
-                    <hr>
-                    <label for="exampleInputPassword1">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="email" placeholder="tudireccion@correo.com" class="form-control" required>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn boton text-light" data-dismiss="modal">Grabar</button>
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                    <a href="error404.html"><button class="btn btn-dark">Enviar</button></a>
                 </div>
                 <hr>
             </div>
         </div>
-    </div>
 
     <!-- librerias bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

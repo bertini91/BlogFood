@@ -6,10 +6,10 @@
     background-color: #e3e4e5;
 }
 
-.btn{
+/* .btn{
     background-color: #daa592;
     border: none;
-}
+} */
 
 .btn:hover{
     filter: opacity(35%);
@@ -80,10 +80,6 @@
     width: 100%;
 }
 
-.boton{
-    background-color: #daa592;
-}
-
 .google{
     background-color: red;
     width: 100%;
@@ -96,6 +92,5 @@
     margin-bottom: 5px;
 }
 .twitter{
-    background-color: #00acee;
-    width: 100%;
+    width: 100% !important;
 }
