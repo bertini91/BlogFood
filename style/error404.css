@@ -3,10 +3,10 @@
     position: fixed;
     width: 100%;
 }
-.inicio{
-    margin-top: 120px;
-    height: 100%;
-    margin-bottom: 380px;
+
+.breadcrumb{
+    background-color: #e3e4e5;
+    margin-top: 114px;
 }
 
 .footer{
@@ -16,7 +16,7 @@
 }
 
 .card-body{
-    margin-top: 90px !important;
+    border: none;
 }
 
 .btn{
