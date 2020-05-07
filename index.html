@@ -125,7 +125,7 @@
                 <a href="error404.html" class="list-group-item list-group-item-light">Vegetarianas</a>
                 <a href="error404.html" class="list-group-item list-group-item-light">Bajas en calorias</a>
                 <a href="imageGallery.html" class="list-group-item list-group-item-light mb-5">Las mas buscadas</a>
-                <form class="form-inline">
+                <form class="form-inline" action="error404.html">
                     <input class="form-control mr-sm-2" type="Receta" placeholder="Receta" aria-label="Receta" required>
                     <a href="error404.html"><button class="btn text-light my-sm-0">Buscar</button></a>
                 </form>
@@ -165,10 +165,11 @@
                         combinarlos para compartir con uds las recetas mas sabrosas y prácticas</p>
                 </div>
                 <div class="col-sm-12 col-md-4 text-center">
-                    <a href="error404.html"><i class="fab fa-facebook-square fa-2x my-3 text-dark"></i></a>
-                    <a href="error404.html"><i class="fab fa-instagram fa-2x my-3 text-dark"></i></a>
-                    <a href="error404.html"> <i class="fab fa-twitter-square fa-2x my-3 text-dark"></i></a>
-                    <a href="error404.html"><i class="fab fa-pinterest-square fa-2x my-3 text-dark"></i></a>
+                    <p class="mt-3"><strong>Encontranos tambien en:</strong></p>
+                    <a href="error404.html"><i class="fab fa-facebook-square fa-2x my-1 text-dark"></i></a>
+                    <a href="error404.html"><i class="fab fa-instagram fa-2x my-1 text-dark"></i></a>
+                    <a href="error404.html"> <i class="fab fa-twitter-square fa-2x my-1 text-dark"></i></a>
+                    <a href="error404.html"><i class="fab fa-pinterest-square fa-2x my-1 text-dark"></i></a>
                 </div>
             </div>
         </article>
@@ -183,16 +184,18 @@
                     <h5 class="modal-title text-light" id="suscripcion">Ingresa tu direccion de email para recibir
                         nuestro newsletter</h5>
                 </div>
-                <div class="modal-body">
-                    <label for="exampleInputname">Nombre y apellido</label>
-                    <input type="usr" placeholder="Nombre y Apellido" class="form-control mb-3">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" placeholder="tudireccion@correo.com" class="form-control" required>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
-                    <a href="error404.html"><button class="btn btn-dark">Enviar</button></a>
-                </div>
+                <form action="error404.html">
+                    <div class="modal-body">
+                        <label for="exampleInputname">Nombre y apellido</label>
+                        <input type="usr" placeholder="Nombre y Apellido" class="form-control mb-3">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" placeholder="tudireccion@correo.com" class="form-control" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn boton text-light" data-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn boton text-light">Enviar</button>
+                    </div>
+                </form>
                 <hr>
             </div>
         </div>
