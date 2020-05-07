@@ -107,3 +107,9 @@ ul button{
     background-color: #00acee;
     width: 100%;
 }
+
+@media screen and (max-width: 767px){
+    .card-body-gallery{
+        display: block;
+    }
+}
