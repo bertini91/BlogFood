@@ -1,10 +1,21 @@
 /* color gris del sitio #e3e4e5 */
 /* color rosa del sitio #daa592 */
 
-.breadcrumb{
-    margin-top: 114px;
-    background-color: #e3e4e5;
+
+ul button{
+    margin-left: 10px;
 }
+
+.breadcrumb{
+    background-color: #e3e4e5;
+    margin-top: 114px;
+    border-top: 1.5px solid;
+    border-color: #c1c1bf;
+}
+
+.breadcrumb-item a{
+    color: black;
+} 
 
 .btn{
     background-color: #daa592;
@@ -39,6 +50,13 @@
 .card-gallery img:hover{
     filter: grayscale(40%);
     transition: all .4s;
+}
+
+.container h2{
+    font-family: 'Kalam', cursive;
+}
+.row h2{
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 

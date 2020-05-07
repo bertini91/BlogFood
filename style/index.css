@@ -5,12 +5,21 @@
 }
 
 
+ul button{
+    margin-left: 10px;
+}
+
 .breadcrumb{
     background-color: #e3e4e5;
     margin-top: 114px;
+    border-top: 1.5px solid;
+    border-color: #c1c1bf;
     margin-bottom: 0px;
 }
 
+.breadcrumb-item a{
+    color: black;
+} 
 
 .footer{
     background-color: #e3e4e5;

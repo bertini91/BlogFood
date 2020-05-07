@@ -3,6 +3,12 @@
     position: fixed;
     width: 100%;
 }
+/* .nav-item:hover{
+    font-weight: bold;
+} */
+ul button{
+    margin-left: 10px;
+}
 
 .breadcrumb{
     background-color: #e3e4e5;
@@ -11,6 +17,12 @@
     border-color: #c1c1bf;
 }
 
+.breadcrumb-item a{
+    color: black;
+} 
+
+
+ 
 .footer{
     background-color: #e3e4e5;
     position: relative;
@@ -77,4 +89,7 @@
         margin: 0 !important;
         
     }
+    /* .card-text{
+        font-weight: bold;
+    } */
 }

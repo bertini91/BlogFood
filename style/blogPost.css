@@ -32,6 +32,19 @@
 	margin-bottom: 0;
 	background-color: #e3e4e5;
 }
+ul button{
+    margin-left: 10px;
+}
+
+.breadcrumb{
+    border-top: 1.5px solid;
+    border-color: #c1c1bf;
+}
+
+.breadcrumb-item a{
+    color: black;
+} 
+
 
 .dishes{
     display: flex;
@@ -44,7 +57,7 @@
 }
 
 body, .btn-send{
-	background-color: #daa592;
+	background-color: #daa592 !important;
 }
 
 .btn-send:hover{
@@ -154,17 +167,14 @@ li p{
 
 .checks{
 	margin-left: 20px;
-	margin-right: 23px;
+	margin-right: 20px;
 }
 
 .button-comment{
-	display: flex;
-	justify-content: center;
+	display: block;
+	text-align: center;
 }
-.button-comment button{
-	width: 30%;
-	background-color: #FDD6D6;
-}
+
 
 .form-group{
 	margin-bottom: 10px;
