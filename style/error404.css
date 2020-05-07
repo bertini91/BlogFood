@@ -7,6 +7,8 @@
 .breadcrumb{
     background-color: #e3e4e5;
     margin-top: 114px;
+    border-top: 1.5px solid;
+    border-color: #c1c1bf;
 }
 
 .footer{
@@ -46,6 +48,7 @@
     align-items: center;
 }
 
+
 .fadeInUp{
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -70,7 +73,7 @@
 
 @media(max-width:600px){
     .mobile-marpad{
-        padding: 0px !important;
+        padding: 12px !important;
         margin: 0 !important;
         
     }

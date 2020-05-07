@@ -43,7 +43,7 @@
 	margin-top: 0px;
 }
 
-.main, .btn-send{
+body, .btn-send{
 	background-color: #daa592;
 }
 
@@ -269,7 +269,7 @@ transition: opacity 400ms ease-in;
 .close:hover { background: #00d9ff; }
 
 
-@media(max-width:800px){
+@media(max-width:920px){
     .comments{
 		display: block;
 	}
@@ -295,6 +295,9 @@ transition: opacity 400ms ease-in;
 		display: flex;
 		justify-content: center;
 		
+	}
+	footer .container .row .col-md-4 {
+		display: block !important;
 	}
 	.form-group_checks{
 		display: block;
