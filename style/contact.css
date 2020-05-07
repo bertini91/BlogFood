@@ -1,3 +1,6 @@
+header{
+    padding-bottom: 1px;
+}
 .nav{
     background-color: #e3e4e5;
     position: fixed;
@@ -10,7 +13,7 @@ ul button{
 .breadcrumb{
     background-color: #e3e4e5;
     margin-top: 114px;
-    border-top: 1.5px solid;
+    border-top: 1px solid;
     border-color: #c1c1bf;
 }
 

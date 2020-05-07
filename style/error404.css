@@ -1,11 +1,11 @@
+header{
+    padding-bottom: 1px;
+}
 .nav{
     background-color: #e3e4e5;
     position: fixed;
     width: 100%;
 }
-/* .nav-item:hover{
-    font-weight: bold;
-} */
 ul button{
     margin-left: 10px;
 }
@@ -13,7 +13,7 @@ ul button{
 .breadcrumb{
     background-color: #e3e4e5;
     margin-top: 114px;
-    border-top: 1.5px solid;
+    border-top: 1px solid;
     border-color: #c1c1bf;
 }
 
@@ -21,8 +21,6 @@ ul button{
     color: black;
 } 
 
-
- 
 .footer{
     background-color: #e3e4e5;
     position: relative;

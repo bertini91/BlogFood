@@ -1,6 +1,9 @@
 /* color gris del sitio #e3e4e5 */
 /* color rosa del sitio #daa592 */
 
+header{
+    padding-bottom: 1px;
+}
 
 ul button{
     margin-left: 10px;
@@ -9,7 +12,7 @@ ul button{
 .breadcrumb{
     background-color: #e3e4e5;
     margin-top: 114px;
-    border-top: 1.5px solid;
+    border-top: 1px solid;
     border-color: #c1c1bf;
 }
 
