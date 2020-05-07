@@ -159,6 +159,9 @@ li p{
 .comment h5{
 	margin-bottom: 12px;
 }
+.seemore{
+	margin: 5px 0 5px 0;
+}
 
 .openComments{
 	margin-left: 15px;
