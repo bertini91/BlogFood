@@ -28,7 +28,6 @@ header{
     background-color: #daa592;
 }
 
-/* Fin */
 
 .breadcrumb, .breadcrumb ol{
 	margin-top: 114px;
@@ -302,10 +301,6 @@ transition: opacity 400ms ease-in;
 	.comment{
 		margin-top: 20px;
 	}
-	/* .row img, img{
-		width: 250px;
-		height: 250px;
-	} */
 	.card-img{
 		width: 250px !important;
 		height: 250px !important;

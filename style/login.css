@@ -28,11 +28,10 @@ ul button{
     bottom: 0;
 }
 
-/* .form{
-    height: 100%;
-    width: 100%;
-} */
-
+.b-sus {
+    background-color: #daa592 !important;
+    border: none !important;
+}
 .boton{
     background-color: #daa592;
 }
